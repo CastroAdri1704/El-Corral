@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesa El Corral</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+          body {
+            background: radial-gradient(#87df3f, #c9720f);
+        }
+        .header {
+            margin-bottom: 0;
+            padding: 0;
+            background-color: #3b0808;
+            color: white;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            height: 500px; /* Ajusta la altura de las imágenes del carrusel según sea necesario */
+        }
+
+        .card {
+            border: none !important;
+            box-shadow: none !important;
+        }
+
+        .card-img-top {
+            border: none !important;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+        .cajon{
+    background-color: hsl(0, 93%, 39%);
+       height: 340px;
+       color: rgb(2, 0, 0);
+       bottom: 0;
+       right: 0;
+       padding-left: 25px;
+       padding-right: 20px;
+       padding-top: 20px;
+       font-size: 18px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-align: center;
+    
+   }
+   .nav-item .nav-link.active {
+    color: #d3b50a;
+}
+.nav-item .nav-link.active:hover {
+    color: #ffc60a;
+}
+.nav-item .nav-link {
+    color: #d3320a; /* Color deseado para el enlace */
+}
+.nav-item .nav-link:hover {
+    color: #f5bd03; /* Color deseado para el enlace */
+}
+#Footer{
+    background-color:  #fa6108;
+    margin-top: -1000px;
+}
+#Footer a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ajustar la altura del contenedor */   
+   
+}
+.rr{
+            overflow: hidden;
+            width: 1000px;
+            margin-left: 200px;
+		height:900px;
+		border: 5px;
+		text-align: center;
+        position: relative;
+        font-size: 80px;
+        margin-top: 15px;  
+        }
+
+        #A{
+            overflow: hidden;
+            width: 1000px;
+            margin-left: 0px;
+		height:900px;
+		border: 5px;
+		text-align: center;
+        position: relative;
+        font-size: 80px;
+        z-index: 30;
+        top:-550px;
+        }
+        #A img{
+            width: 600px;
+        }
+        #B{
+            overflow: hidden;
+            margin-left: 300px;
+
+		height:500px;
+        position: relative;
+
+        z-index: 30;
+        top:-1100px;
+        }
+        #B img{
+            width: 650px;
+          
+        }
+        .HH{
+            border: 1PX solid black;
+            width: 300PX;
+            height: 10PX;
+
+        }
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="i.html" target="_blank">Instalaciones</a>
+                    <div ID="HH"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="malteadas.html">Malteadas</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Y mas.html">Y Mas..</a>
+                
+              </li>
+            </ul>    
+          </div>
+        </div>
+      </nav>
+      
+    <!-- Header -->
+    <header class="header">
+        <a href="https://www.elcorral.com/" class="logo">
+            <img src="./Hamburguesas, malteadas, helados y más _ El Corral_files/logo.png" alt="Logo El Corral" style="height: 50px;">
+        </a>
+    </header>
+
+    <!-- Carrusel -->
+    <div id="Principal" class="mb-4">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="two-burgers-with-words-burgers-top_91957-341.avif" class="d-block w-100" alt="Malteadas">
+                </div>
+                <div class="carousel-item">
+                    <img src="Afghani-Lamb-Burger-foods-near-chennai-airport.jpeg" class="d-block w-100" alt="Hamburguesas">
+                </div>
+                <div class="carousel-item">
+                    <img src="Malteadas-1.webp" class="d-block w-100" alt="Malteadas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Sección de tarjetas de hamburguesas -->
+    <section id="card" class="container">
+        <div class="row text-center section-title">
+            <h2>Hamburguesas Especiales</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="hamburguesa.jpg" class="card-img-top" alt="Hamburguesa Clásica">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa Clásica</h5>
+                        <p class="card-text">Una hamburguesa deliciosa con todos los ingredientes tradicionales.En esencia, la hamburguesa clásica es un ícono de la cocina rápida, apreciada por su simplicidad y sabor.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="burgers-double-cheeseburger.jpg" class="card-img-top" alt="Hamburguesa BBQ">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa BBQ</h5>
+                        <p class="card-text">Hamburguesa con salsa BBQ y cebolla caramelizada.La hamburguesa BBQ es ideal para aquellos que disfrutan de un sabor robusto y una experiencia de comida más rica, perfecta para una parrillada o una comida informal.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="R (3).jpeg" class="card-img-top" alt="Hamburguesa Veggie">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburguesa Veggie</h5>
+                        <p class="card-text">La hamburguesa veggie es ideal para aquellos que buscan una opción saludable y sostenible, o simplemente desean explorar nuevas alternativas a las hamburguesas tradicionales. 
+                        </p>
+                    </div>
+        </div>
+    </section>
+
+    
+
+    </div>
+    <div class="rr"><img src="kimchi-bulgogi-beef-burgerjpg_1184967-3378.avif"></div>
+    <div id="A"><img src="R (5).jpeg"></div>
+    <div id="B"><img src="Double-Cheeseburger-wide-FS-and-foodporn-55.webp"></div>
+     <div id="Footer" class="tex-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg pb-4 pt-4">
+                    <a href="#">Preguntas Frecuentes</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contáctanos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Destacados</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Conferencias</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Buffet</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
